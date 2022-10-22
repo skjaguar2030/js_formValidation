@@ -9,9 +9,6 @@ form.addEventListener( "submit", e => { e.preventDefault(); checkInputs() });
 
 function checkInputs() {
 
-    console.log(passwordValue)
-
-
     const usernameValue = username.value.trim();
     const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
